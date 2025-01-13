@@ -1,0 +1,23 @@
+body {
+  background-color: #f9f6e6;
+}
+
+#Navbar {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#Navbar .nav-link {
+  color: #8d77ab;
+}
+
+#Navbar .nav-link:hover {
+  color: #727d73;
+  text-decoration: underline;
+}
+
+#Navbar .navbar-brand {
+  font-family: "super_cartoonregular";
+  font-size: 1.5rem;
+  color: #8174a0;
+}
