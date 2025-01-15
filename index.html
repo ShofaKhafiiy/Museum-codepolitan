@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="../bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <style>
@@ -14,7 +17,15 @@
         font-weight: normal;
         font-style: normal;
       }
+      @font-face {
+        font-family: "jhon_creamregular";
+        src: url("/belajar css/bootstrap/websiteLatboostrap/font/jhon_cream-webfont.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
     </style>
+
     <title>Document</title>
   </head>
   <body>
@@ -42,7 +53,29 @@
       </div>
     </nav>
 
-    <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="text-center d-none d-lg-block" id="title-head">
+            <h1>ZOO SAFARI</h1>
+            <h1>ZOO SAFARI</h1>
+            <h1>ZOO SAFARI</h1>
+            <h1>ZOO SAFARI</h1>
+            <h1>ZOO SAFARI</h1>
+            <h1>ZOO SAFARI</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="img-fluid"
+            src="img/2c91628b-1d85-42d6-9b7a-25bc5105c2c5.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="

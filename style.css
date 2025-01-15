@@ -1,5 +1,7 @@
 body {
   background-color: #f9f6e6;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 #Navbar {
@@ -16,8 +18,36 @@ body {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid.px-0 {
+  padding: 0; /* Pastikan container-fluid tidak memiliki padding */
+}
+
+.row {
+  margin: 0; /* Pastikan row tidak memiliki margin negatif */
+}
+
 #Navbar .navbar-brand {
   font-family: "super_cartoonregular";
   font-size: 1.5rem;
   color: #8174a0;
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+#title-head h1 {
+  font-family: "jhon_creamregular";
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-size: 3rem;
+  }
 }
