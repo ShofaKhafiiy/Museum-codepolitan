@@ -7,6 +7,7 @@ body {
 #Navbar {
   font-size: 1.5rem;
   font-weight: 200;
+  background-color: #f9f6e6;
 }
 
 #Navbar .nav-link {
@@ -16,11 +17,6 @@ body {
 #Navbar .nav-link:hover {
   color: #727d73;
   text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .container-fluid.px-0 {
@@ -37,6 +33,11 @@ img {
   color: #8174a0;
 }
 
+.navbar.scrolled {
+  background-color: #f9f6e6;
+  transition: background 500ms;
+}
+
 #title-head {
   font-weight: 100;
   font-size: 4rem;
@@ -44,6 +45,17 @@ img {
 
 #title-head h1 {
   font-family: "jhon_creamregular";
+}
+
+.blurb h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 2;
 }
 
 @media (max-width: 1200px) {
